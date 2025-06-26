@@ -1,7 +1,65 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <h1>Hello World!</h1>
-        <p>I'm hosted with Github Pages.</p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me - Grace Hines</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <header class="navbar">
+        <div class="title-section">
+            <i class="fa-solid fa-seedling"></i>
+            <h1>grace nicole <span class="subtitle"></span></h1>
+        </div>
+       
+        <div class="nav-buttons">
+            <button onclick="setScreen('about')">about me</button> 
+            <button onclick="setScreen('timeline')">my timeline</button>
+            <button onclick="setScreen('projects')">current projects</button>
+        </div>
+    </header>
+
+  
+
+     <!-- Screens for different sections -->
+     <div id="about" class="screen"></div>
+     <div id="timeline" class="screen" style="display: none;">Timeline content here.</div>
+     <div id="projects" class="screen" style="display: none;">Current Projects listed here.</div> 
+
+     <!--
+
+         <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Computer Science student passionate about building technology that makes an impact...</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>HTML & CSS</li>
+            <li>C</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="https://github.com/janedoe/project1">My Cool Project</a> - Description here.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: jane.doe@example.com</p>
+        <p><a href="https://github.com/janedoe">GitHub</a> | <a href="https://linkedin.com/in/janedoe">LinkedIn</a></p>
+    </section>
+
+     -->
+   
+</body>
 </html>
