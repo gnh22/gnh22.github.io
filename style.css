@@ -107,7 +107,7 @@ html, body {
 #about-text p {
     font-size: 1rem;
     color:gray;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .about-me-buttons {
@@ -127,6 +127,7 @@ html, body {
     font-size: 1.5rem;
     cursor: pointer;
     transition: transform 0.3s ease;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .about-me-buttons button:hover {
