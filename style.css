@@ -4,7 +4,7 @@
     justify-content: space-between; /* name left, buttons right */
     align-items: center;            /* vertical centering */
     padding: 10px 20px;
-    background-color: #f5f5f5;
+    /*background-color: #f5f5f5;*/
 }
 
 .title-section {

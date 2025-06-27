@@ -1,0 +1,39 @@
+// function for navigation bar -- DO THIS FIRST or buttons and their event listeners won't be recognized 
+/*document.getElementById('header-container').innerHTML = `
+<header class="navbar">
+    <div class="title-section">
+        <i class="fa-solid fa-seedling"></i>
+        <h1>grace nicole <span class="subtitle"></span></h1>
+    </div>
+    <div class="nav-buttons">
+        <button class="aboutme">about me</button> 
+        <button class="mytimeline">my timeline</button>
+        <button class="currentprojects">current projects</button>
+    </div>
+</header>
+`;*/
+
+function setScreen(screenId) {
+    // Hide all screens
+    const screens = document.querySelectorAll('.screen');
+    screens.forEach(screen => screen.style.display = 'none');
+
+    // Show the selected screen
+    document.getElementById(screenId).style.display = 'block';
+}
+
+// event listener for all about me buttons to take you to aboutme page
+document.querySelectorAll('.aboutme').forEach(btn => {
+    btn.addEventListener('click', () => setScreen('about'));
+});
+
+// event listener for all mytimeline buttons to take you to timeline page
+document.querySelectorAll('.mytimeline').forEach(btn => {
+    btn.addEventListener('click', () => setScreen('timeline'));
+});
+
+// event listener for all current projects buttons to take you to projects page
+document.querySelectorAll('.currentprojects').forEach(btn => {
+    btn.addEventListener('click', () => setScreen('projects'));
+});
+
