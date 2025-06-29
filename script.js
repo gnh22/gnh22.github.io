@@ -24,16 +24,30 @@ function setScreen(screenId) {
 
 // event listener for all about me buttons to take you to aboutme page
 document.querySelectorAll('.aboutme').forEach(btn => {
-    btn.addEventListener('click', () => setScreen('about'));
+    btn.addEventListener('click', () => {
+        window.location.hash = 'about';
+        setScreen('about');
+    });
 });
 
 // event listener for all mytimeline buttons to take you to timeline page
 document.querySelectorAll('.mytimeline').forEach(btn => {
-    btn.addEventListener('click', () => setScreen('timeline'));
+    btn.addEventListener('click', () => { 
+        window.location.hash = 'timeline';
+        setScreen('timeline');
+    });
 });
 
 // event listener for all current projects buttons to take you to projects page
 document.querySelectorAll('.currentprojects').forEach(btn => {
-    btn.addEventListener('click', () => setScreen('projects'));
+    btn.addEventListener('click', () => {
+        window.location.hash = 'projects';
+        setScreen('projects')
+    });
+});
+
+window.addEventListener('hashchange', () => {
+    const hash = window.location.hash.substring(1); // removes the '#'
+    setScreen(hash || 'about'); // Default to 'about' if hash is empty
 });
 
