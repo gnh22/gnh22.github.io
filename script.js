@@ -30,6 +30,14 @@ document.querySelectorAll('.aboutme').forEach(btn => {
     });
 });
 
+// event listener for all resume buttons to take you to resume page
+document.querySelectorAll('.resume').forEach(btn => {
+    btn.addEventListener('click', () => {
+        window.location.hash = 'resume';
+        setScreen('resume');
+    });
+});
+
 // event listener for all mytimeline buttons to take you to timeline page
 document.querySelectorAll('.mytimeline').forEach(btn => {
     btn.addEventListener('click', () => { 
