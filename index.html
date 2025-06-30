@@ -16,7 +16,7 @@
         </div>
         <div class="nav-buttons">
             <button class="aboutme">about me</button> 
-            <button class="resume">resume</button>
+            <button class="resume" onclick="window.open('GraceNHines_resume.pdf', '_blank')">resume</button>
             <button class="currentprojects">projects</button>
             <button class="mytimeline">timeline</button>
             
@@ -35,7 +35,8 @@
                     I want to go next. Thanks for stopping by!
                 </p> 
             <div class="about-me-buttons">
-                <button class="resume" id="about-me-r">resume</button>
+                <!--Opens the resume in a pdf viewer in a new tab-->
+                <button class="resume" id="about-me-r" onclick="window.open('GraceNHines_resume.pdf', '_blank')">resume</button>
                 <button class="currentprojects" id="about-me-p">projects</button>
                 <button class="mytimeline" id="about-me-t">timeline</button>
             </div>
@@ -54,12 +55,16 @@
         
     </div>
 
+    <!--
     <div id="resume" class="screen" style="display:none;">
-        <p>This is the resume page</p>
+        <!--
         <div class="pdf-container">
             <iframe src="GraceNHines_resume.pdf" frameborder="0"></iframe>
         </div>
-    </div>
+        <div class="pdf-wrapper">
+            <iframe src="GraceNHines_resume.pdf"></iframe>
+        </div>
+    </div>-->
    
      <!-- Screens for different sections -->
      <div id="timeline" class="screen" style="display: none;">
