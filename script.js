@@ -42,8 +42,8 @@ document.querySelectorAll('.resume').forEach(btn => {
 // event listener for all mytimeline buttons to take you to timeline page
 document.querySelectorAll('.mytimeline').forEach(btn => {
     btn.addEventListener('click', () => { 
-        window.location.hash = 'timeline';
-        setScreen('timeline');
+        window.location.hash = 'timelinepage';
+        setScreen('timelinepage');
     });
 });
 
