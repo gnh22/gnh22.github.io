@@ -1,3 +1,7 @@
 body {
     background-color: lightblue;
 }
+
+#nav-bar {
+    font-family:Arial, Helvetica, sans-serif;
+}
