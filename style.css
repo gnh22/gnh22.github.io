@@ -15,7 +15,7 @@ body {
     align-items: center;
     justify-content: space-between; /* puts space between name and navigation items */
     top: 0px;
-    background-color: orange;
+    /*background-color: orange;*/
     background-blend-mode: darken;
     background-size: cover;
     color: white;
@@ -43,7 +43,7 @@ body {
 }
 
 .nav-list li a:hover {
-    color: #ffd700;
+    color: #f079da;
     /* Change the color on hover */
 }
 
@@ -59,4 +59,32 @@ body {
 
 .name i {
     font-size: 26px;
+}
+
+/*
+.about-me {
+    display:flex
+}*/
+
+.about-me img{
+    width:550px;
+    height:auto;
+    border-radius: 50%;
+    position:absolute;
+    left:250px;
+    top:150px;
+    transition:transform .5s;
+}
+
+.about-me img:hover{
+  -ms-transform: scale(1.25); /* IE 9 */
+  -webkit-transform: scale(1.25); /* Safari 3-8 */
+  transform: scale(1.25); 
+}
+
+
+.about-me p{
+    position:absolute;
+    left:900px;
+    top:300px;
 }
