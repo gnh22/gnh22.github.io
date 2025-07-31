@@ -77,57 +77,77 @@ body {
     font-size: 26px;
 }
 
-.about-me {
-    /* width:400px;
-    height:400px;
-    
-    background-color: orange;  */
-}
-
-
-.profilephoto{
-    width:550px;
-    height:auto;
-    position:absolute;
-    left:275px;
-    top:100px;
-}
-
-
-.notepic{
-    position:absolute;
-    left:850px;
-    top:355px;
-    width:350px;
-    height:auto;
-}
-
-.main-body p{
-    position:absolute;
-    left:870px;
-    top:390px;
-    width:300px;
-    height:auto;
-    font-size:28;
-    font-style:italic;
-    font-family:'Cairo', sans-serif;
-    line-height:1.2;
-}
-
-.about-me h1{
+.container {
+    margin-top:3%;
     display:flex;
+    grid-auto-flow:columns;
+    /* background-color: pink;  */
+    /* align-items:center; vertically centered */
+    justify-content:center; /* horizontally centered */
+}
+
+.container h1{
     /* background-color: orange; */
     height:200px;
     width:350px;
-    position:absolute;
+    /* position:absolute;
     left:850px;
-    top:175px;
+    top:175px; */
+    margin-top:7%;
     font-size: 72;
     color:#22577a;
     font-family: 'Arima Koshi', cursive;
     line-height: 1.2    /*lessen white space between two lines of text*/
+} 
+
+.photo {
+    /* background-color:orange; */
 }
 
+.info {
+    margin-left:2%;
+    /* background-color: grey; */
+}
+
+.profilephoto{
+    width:550px;
+    height:auto;
+    /* position:absolute;
+    left:275px;
+    top:100px; */
+} 
+
+.stickynote-container {
+    position:relative;
+    display:inline-block;
+    /* background-color:green; */
+}
+
+.stickynote-container img{
+    display:block;
+}
+
+.stickynote-container p {
+    font-size:26;
+    font-style:italic;
+    font-family:'Cairo', sans-serif;
+    line-height:1.2;
+    position:absolute;
+    margin-left:5%;
+    margin-right:5%;
+    top:15%;
+}
+
+ .notepic{
+    /* position:absolute;
+    left:850px;
+    top:355px; */
+    width:350px;
+    height:auto;
+}
+
+
+/* 
 .star-img{
     width:100px;
     height:auto;
@@ -141,5 +161,5 @@ body {
     position:absolute;
     bottom:75px;
     left:650px;
-}
+} */
 
