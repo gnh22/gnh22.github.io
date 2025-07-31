@@ -1,6 +1,22 @@
 body {
-    background-color: lightblue;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #fff;
+    /*chatGPT helped me generate this:*/
+    background-image: 
+        repeating-linear-gradient(
+        to right, 
+        rgb(134, 197, 246) 0, 
+        rgb(134, 197, 246) 1px, 
+        transparent 1px, 
+        transparent 25px
+        ),
+        repeating-linear-gradient(
+        to bottom, 
+        #ccc 0,         /* it looks kinda good with these as cream and not also blue...*/
+        #ccc 1px, 
+        transparent 1px, 
+        transparent 25px
+        );
 }
 
 
@@ -10,25 +26,22 @@ body {
 } 
 
 .navbar {
-    display: flex;
-    position: sticky;
-    align-items: center;
-    justify-content: space-between; /* puts space between name and navigation items */
-    top: 0px;
-    /*background-color: orange;*/
-    background-blend-mode: darken;
-    background-size: cover;
-    color: white;
-    padding: 10px 20px;
+    display:flex;
+    /* background-color: rgba(146, 248, 91, 0.5); */
+    margin:15px auto;
+    justify-content: center;    /*puts items in navbar centered*/
+    align-items:center;
+    width:700px;
 }
 
 .nav-list {
     display: flex;
     list-style: none;
+    /* padding:5 5 5 5; */
 }
 
 .nav-list li {
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .nav-list li:last-child {
@@ -38,12 +51,15 @@ body {
 .nav-list li a {
     text-decoration: none;
     color:#22577a;
-    font-size: 18px;
+    /* color:#22577a; */
+    font-size: 28px;
     transition: color 0.3s ease-in-out;
+    text-decoration:underline;
+    font-family:'Cairo', sans-serif;;
 }
 
 .nav-list li a:hover {
-    color: #f079da;
+    color: rgb(134, 197, 246);
     /* Change the color on hover */
 }
 
@@ -61,30 +77,74 @@ body {
     font-size: 26px;
 }
 
-/*
 .about-me {
-    display:flex
-}*/
+    /* width:400px;
+    height:400px;
+    
+    background-color: orange;  */
+}
 
-.about-me img{
+
+.profilephoto{
     width:550px;
     height:auto;
-    border-radius: 50%;
     position:absolute;
-    left:250px;
-    top:150px;
-    transition:transform .5s;
-}
-
-.about-me img:hover{
-  -ms-transform: scale(1.25); /* IE 9 */
-  -webkit-transform: scale(1.25); /* Safari 3-8 */
-  transform: scale(1.25); 
+    left:275px;
+    top:100px;
 }
 
 
+.notepic{
+    position:absolute;
+    left:850px;
+    top:355px;
+    width:350px;
+    height:auto;
+}
+
+.main-body p{
+    position:absolute;
+    left:870px;
+    top:390px;
+    width:300px;
+    height:auto;
+    font-size:28;
+    font-style:italic;
+    font-family:'Cairo', sans-serif;
+    line-height:1.2;
+}
+
+.about-me h1{
+    display:flex;
+    /* background-color: orange; */
+    height:200px;
+    width:350px;
+    position:absolute;
+    left:850px;
+    top:175px;
+    font-size: 72;
+    color:#22577a;
+    font-family: 'Arima Koshi', cursive;
+    line-height: 1.2    /*lessen white space between two lines of text*/
+}
+
+.star-img{
+    width:100px;
+    height:auto;
+    position:absolute;
+    bottom:50px;
+    left:750px;
+}
+.heart-img{
+    width:100px;
+    height:auto;
+    position:absolute;
+    bottom:75px;
+    left:650px;
+}
+/*
 .about-me p{
     position:absolute;
     left:900px;
     top:300px;
-}
+}*/
