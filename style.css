@@ -97,7 +97,7 @@ body {
     font-size: 72;
     color:#22577a;
     font-family: 'Arima Koshi', cursive;
-    line-height: 1.2    /*lessen white space between two lines of text*/
+    line-height: 1.1;    /*lessen white space between two lines of text*/
 } 
 
 .photo {
