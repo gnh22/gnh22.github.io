@@ -53,7 +53,7 @@ body {
     /* color:#22577a; */
     color:#353F4F;
     /* color:#22577a; */
-    font-size: 28px;
+    font-size: 24px;
     transition: color 0.3s ease-in-out;
     text-decoration:underline;
     font-family:'Cairo', sans-serif;;
@@ -62,21 +62,6 @@ body {
 .nav-list li a:hover {
     color: rgb(134, 197, 246);
     /* Change the color on hover */
-}
-
-.name {
-    display: flex;
-    /* color:#22577a; */
-    color:#353F4F;
-}
-
-.name p {
-    font-size: 26px;
-    vertical-align: auto;
-}
-
-.name i {
-    font-size: 26px;
 }
 
 .container {
