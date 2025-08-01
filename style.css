@@ -50,7 +50,8 @@ body {
 
 .nav-list li a {
     text-decoration: none;
-    color:#22577a;
+    /* color:#22577a; */
+    color:#353F4F;
     /* color:#22577a; */
     font-size: 28px;
     transition: color 0.3s ease-in-out;
@@ -65,7 +66,8 @@ body {
 
 .name {
     display: flex;
-    color:#22577a;
+    /* color:#22577a; */
+    color:#353F4F;
 }
 
 .name p {
@@ -95,7 +97,8 @@ body {
     top:175px; */
     margin-top:7%;
     font-size: 72;
-    color:#22577a;
+    /* color:#22577a; */
+    color:#353F4F;
     font-family: 'Arima Koshi', cursive;
     line-height: 1.1;    /*lessen white space between two lines of text*/
 } 
@@ -117,6 +120,13 @@ body {
     top:100px; */
 } 
 
+/* .h1-container{
+    position:relative;
+}
+
+.h1-container img{
+    display:block;
+} */
 .stickynote-container {
     position:relative;
     display:inline-block;
@@ -146,20 +156,47 @@ body {
     height:auto;
 }
 
+.bottom-area{
+    /* background-color: orange; */
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:3.5%;
+}
+.bottom-area p{
+    position:absolute;
+    color:#353F4F;
+    font-family: 'Arima Koshi', cursive;
+    font-size:28px;
+}
+.blue-button{
+    width:200px;
+    height:auto;
+    
+}
 
-/* 
 .star-img{
-    width:100px;
+    width:90px;
     height:auto;
     position:absolute;
-    bottom:50px;
-    left:750px;
+    /* top:100px;
+    right:200px; */
+    /* top:16%;
+    right:10%; */
+    /* bottom:50px;
+    left:750px;  */
 }
 .heart-img{
-    width:100px;
-    height:auto;
+    width:75px;
+    height:auto; 
     position:absolute;
-    bottom:75px;
-    left:650px;
-} */
+    bottom:10%;
+    left:20%;
+    /* top:180px;
+    right:125px; */
+    /* top:13%;
+    right:17%; */
+    /* bottom:75px;
+    left:650px;  */
+} 
 
