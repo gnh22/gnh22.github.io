@@ -13,17 +13,19 @@ body {
     background-image: 
         repeating-linear-gradient(
         to right, 
-        rgb(134, 197, 246) 0, 
-        rgb(134, 197, 246) 1px, 
+        rgba(134, 197, 246, 0.2) 0,
+        rgba(134, 197, 246, 0.2) 1px,
+        /* rgb(134, 197, 246) 0, 
+        rgb(134, 197, 246) 1px,  */
         transparent 1px, 
-        transparent 25px
+        transparent 15px
         ),
         repeating-linear-gradient(
         to bottom, 
         #ccc 0,         /* it looks kinda good with these as cream and not also blue...*/
         #ccc 1px, 
         transparent 1px, 
-        transparent 25px
+        transparent 15px
         );
 }
 
@@ -36,7 +38,7 @@ body {
 .navbar {
     display:flex;
     /* background-color: rgba(146, 248, 91, 0.5);  */
-    padding-top:3.5%;
+    padding-top:2.5%;
     margin:auto;
     justify-content: center;    /*puts items in navbar centered*/
     align-items:center;
@@ -90,7 +92,7 @@ body {
     left:850px;
     top:175px; */
     /* margin-top:7%; */
-    padding-top:8%;
+    padding-top:10%;
     font-size: 72;
     /* color:#22577a; */
     color:#353F4F;
