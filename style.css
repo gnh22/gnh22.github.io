@@ -1,4 +1,12 @@
 body {
+    background-color: white;
+}
+
+.main-container {
+    /*TEST*/
+    max-width:69.53%;
+    min-height:100vh;
+    margin:0 auto;
     font-family:'Times New Roman', Times, serif;
     background-color: #fff;
     /*chatGPT helped me generate this:*/
@@ -27,8 +35,9 @@ body {
 
 .navbar {
     display:flex;
-    /* background-color: rgba(146, 248, 91, 0.5); */
-    margin:15px auto;
+    /* background-color: rgba(146, 248, 91, 0.5);  */
+    padding-top:3.5%;
+    margin:auto;
     justify-content: center;    /*puts items in navbar centered*/
     align-items:center;
     width:700px;
@@ -41,7 +50,7 @@ body {
 }
 
 .nav-list li {
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 .nav-list li:last-child {
@@ -80,12 +89,13 @@ body {
     /* position:absolute;
     left:850px;
     top:175px; */
-    margin-top:7%;
+    /* margin-top:7%; */
+    padding-top:8%;
     font-size: 72;
     /* color:#22577a; */
     color:#353F4F;
     font-family: 'Arima Koshi', cursive;
-    line-height: 1.1;    /*lessen white space between two lines of text*/
+    line-height: 1.05;    /*lessen white space between two lines of text*/
 } 
 
 .photo {
@@ -147,7 +157,7 @@ body {
     display:flex;
     justify-content: center;
     align-items:center;
-    margin-top:3.5%;
+    margin-top:4%;
 } 
 
 /*positions the text as centered within the button */
