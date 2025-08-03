@@ -3,7 +3,7 @@ body {
 }
 
 .main-container {
-    /*TEST*/
+    /*asked chat gpt for help with making the background take up some of the center screen*/
     max-width:69.53%;
     min-height:100vh;
     margin:0 auto;
