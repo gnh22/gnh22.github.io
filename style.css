@@ -141,23 +141,40 @@ body {
     height:auto;
 }
 
-.bottom-area{
+/* positions the button in the bottom center */
+ .bottom-area{
     /* background-color: orange; */
     display:flex;
     justify-content: center;
     align-items:center;
     margin-top:3.5%;
-}
-.bottom-area p{
+} 
+
+/*positions the text as centered within the button */
+.bottom-area span{
     position:absolute;
+    top:20%;
+    left:15%;
     color:#353F4F;
     font-family: 'Arima Koshi', cursive;
     font-size:28px;
 }
+
 .blue-button{
     width:200px;
     height:auto;
-    
+}
+
+/* positions the text to be somewhere in the button */
+.learn-more-link{
+    position:relative;
+    display:inline-block;
+    text-decoration:none;
+}
+
+.bottom-area:hover .blue-button {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
 }
 
 .star-img{
