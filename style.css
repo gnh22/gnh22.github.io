@@ -37,12 +37,13 @@ body {
 
 .navbar {
     display:flex;
-    /* background-color: rgba(146, 248, 91, 0.5);  */
+    background-color: rgba(146, 248, 91, 0.5); 
     padding-top:2.5%;
     margin:auto;
     justify-content: center;    /*puts items in navbar centered*/
     align-items:center;
     width:700px;
+    height:65px;
 }
 
 .nav-list {
@@ -192,12 +193,13 @@ body {
     position:relative;
     display:inline-block;
     text-decoration:none;
+    /* transition: transform 0.2s; */
 }
 
-.learn-more-link:hover .blue-button {
-    transform: scale(1.1);
+/* .learn-more-link:hover .blue-button {
+    transform: scale(1.2);
     transition: transform 0.2s ease;
-}
+} */
 
 .star-img{
     width:90px;
