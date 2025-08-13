@@ -73,14 +73,43 @@ h1{
     padding-bottom:10px; */
 }
 
-.about-me{
-    margin:100 20 20 20; /*makes it so the section starts right beneath the header*/
+.body-section{
+    /*makes it so the section starts right beneath the header*/
+    margin:100 20 20 20; 
     /* margin:150 100 20 100; */
     /* background-color: pink; */
     /* border:2px solid red;
     padding:0 20 0 20; */
 }
 
+.about-me{
+    /* margin:5% 5% 0% 5%; */
+    font-size:28px;
+    font-family:'Cairo', sans-serif;
+    /* background-color: pink; */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.about-me img{
+    width:30%;
+    height:auto;
+    margin:5% 5% 5% 0%;
+    border:4px solid darkolivegreen;
+    transition: transform 0.3s ease; /* smooth animation */
+}
+
+.about-me img:hover{
+    transform: scale(1.05); /* zoom in */
+}
+
+.bio{
+    width:35%;
+    height:auto;
+    margin:10% 0% 10% 5%;
+    /* background-color: grey; */
+}
 
 .bigtext{
     font-size:32px;
