@@ -15,16 +15,6 @@ body {
     /* background-color: #f6ede0; */
 }
 
-h1{
-    /* margin:10px; */
-    margin:10px;
-    padding:0px;
-    text-align:center;
-    font-weight:normal; /*get rid of bold font*/
-    font-style:italic;
-    /* font-family:'Cairo', sans-serif; */
-    
-}
 
 .navbar{
     /* background-color: #84b067; */
@@ -40,7 +30,8 @@ h1{
     /*justify-content: center; */
     /* padding: 0 100 0 100; */
     /* outline: 3px solid pink; */
-    outline:2px solid #343a40;
+    /* outline:2px solid #343a40; */
+    outline:3px solid #495057;
     /* outline: 3px solid black; */
     /* margin:0px;
     outline: 2px solid red; Outline around the whole navbar */
@@ -106,7 +97,7 @@ h1{
 
 .body-section{
     /*makes it so the section starts right beneath the header*/
-    margin:100 20 20 20; 
+    /* margin:100 20 20 20;  */
     /* margin:150 100 20 100; */
     /* background-color: pink; */
     /* border:2px solid red;
@@ -114,34 +105,76 @@ h1{
 }
 
 .about-me{
+    display: flex;
+    align-items: center;  /*vertically centers text and image*/
+    justify-content: center;
+    margin:8% 15% 5% 15%;
+    /* outline:3px solid #343a40; */
+    outline:3px solid #495057;
+    border-radius: 15px;
     /* margin:5% 5% 0% 5%; */
-    font-size:24px;
-    font-family:'Cairo', sans-serif;
-    /* background-color: pink; */
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    /* font-size:24px;
+    font-family:'Cairo', sans-serif; */
+    
+    /* color:whitesmoke; */
+   
+    /* background-color: #495057; */
+    background-color: #343a40;
+    /* display:flex; */
+   
+    /* align-items:center;
+    justify-content:center; */
 }
 
 .about-me img{
     width:30%;
     height:auto;
-    /* margin:5% 5% 5% 0%; */
-    margin: 5%;
-    /* border:3px solid #f6ede0; */
-    border:2px solid lightblue;
-    /* border:2px solid darkolivegreen; */
+    border-radius: 15px;
     transition: transform 0.3s ease; /* smooth animation */
+    margin:5% 5% 5% 0%;
+    
+    /* margin: 5%; */
+    /* border:3px solid #f6ede0; */
+    /* border:2px solid lightblue; */
+    /* border:2px solid darkolivegreen; */
+    
+    /* align-items: center; */
+    /* margin:0% 8% 8% 5%; */
 }
 
 .about-me img:hover{
-    transform: scale(1.05); /* zoom in */
+    transform: scale(1.1); /* zoom in */
 }
 
+
 .bio{
-    width:35%;
+    font-size:24px;
+    font-family:'Cairo', sans-serif; 
+    color:whitesmoke;
+    margin-left:3%;
+    padding-right: 3%;
+    /* text-align:left; */
+    /* margin-right:2.5%; */
+    /* margin:2.5% 2.5% 2.5% 2.5%; */
+    /* display: inline; */
+    /* padding-left:1%; */
+    /* justify-content: center; */
+    /*align-items: center;  /*vertically centers text and image*/
+    /* width:35%;
     height:auto;
-    margin:10% 0% 10% 5%;
+    margin:10% 0% 10% 5%; */
     /* background-color: grey; */
+    /* padding-bottom:0; */
+}
+
+
+
+.bio p{
+    /* color:#6c757d; */
+    color:#adb5bd;
+    /* margin:2.5% 0% 0% 5%; */
+    font-size:18px;
+    /* margin-left:5.5%; */
+    /* padding-left:1%; */
 }
 
