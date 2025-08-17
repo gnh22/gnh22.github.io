@@ -133,7 +133,7 @@ body {
 }
 
 .about-me img{
-    width:30%;
+    width:35%;
     height:auto;
     border-radius: 15px;
     transition: transform 0.3s ease; /* smooth animation */
