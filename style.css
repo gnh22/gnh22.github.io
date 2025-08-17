@@ -1,7 +1,8 @@
 body {
      /* background-color: #915f6d;  */
     /* background: whitesmoke; */
-    background-color: #212529;
+    /* background-color: #212529; */
+    background-color: #354f52;
     /* background-color: grey; */
     /* background-color: #84b067; */
     margin:0px;
@@ -21,7 +22,8 @@ body {
     /* background-color: whitesmoke; */
     /* background-color: #915f6d;  */
     /* background-color: #f6ede0; */
-    background-color: #212529;
+    /* background-color: #212529; */
+    background-color: #354f52;
     /* background-color: pink; */
     display: flex;
     justify-content: space-between; /*Push left and right to edges */
@@ -31,7 +33,8 @@ body {
     /* padding: 0 100 0 100; */
     /* outline: 3px solid pink; */
     /* outline:2px solid #343a40; */
-    outline:3px solid #495057;
+    /* outline:3px solid #495057; */
+    outline:2px solid #84a98c;
     /* outline: 3px solid black; */
     /* margin:0px;
     outline: 2px solid red; Outline around the whole navbar */
@@ -67,7 +70,8 @@ body {
 
 
 .page_links a:hover{
-    color: #b0c4b1;
+    /* color: #b0c4b1; */
+    color:#84a98c;
     /* background-color: red; */
 }
 
@@ -110,7 +114,8 @@ body {
     justify-content: center;
     margin:8% 15% 5% 15%;
     /* outline:3px solid #343a40; */
-    outline:3px solid #495057;
+    /* outline:3px solid #495057; */
+    outline:2px solid #84a98c;
     border-radius: 15px;
     /* margin:5% 5% 0% 5%; */
     /* font-size:24px;
@@ -119,7 +124,8 @@ body {
     /* color:whitesmoke; */
    
     /* background-color: #495057; */
-    background-color: #343a40;
+    /* background-color: #343a40; */
+    background-color: #52796f;
     /* display:flex; */
    
     /* align-items:center;
@@ -151,6 +157,7 @@ body {
     font-size:24px;
     font-family:'Cairo', sans-serif; 
     color:whitesmoke;
+    /* color:#cad2c5; */
     margin-left:3%;
     padding-right: 3%;
     /* text-align:left; */
@@ -173,7 +180,8 @@ body {
 
 .bio p{
     /* color:#6c757d; */
-    color:#adb5bd;
+    /* color:#adb5bd; */
+    color:#cad2c5;
     /* margin:2.5% 0% 0% 5%; */
     font-size:18px;
     /* margin-left:5.5%; */
