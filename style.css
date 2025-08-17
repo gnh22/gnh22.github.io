@@ -167,7 +167,9 @@ body {
     /* padding-bottom:0; */
 }
 
-
+.bio h1{
+    font-size:64px;
+}
 
 .bio p{
     /* color:#6c757d; */
