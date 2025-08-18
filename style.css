@@ -110,7 +110,7 @@ body {
 
 .about-me{
     display: flex;
-    align-items: center;  /*vertically centers text and image*/
+    /* align-items: center;  vertically centers text and image */
     justify-content: center;
     margin:8% 15% 5% 15%;
     /* outline:3px solid #343a40; */
