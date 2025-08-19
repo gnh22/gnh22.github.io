@@ -117,6 +117,7 @@ body {
     /* outline:3px solid #495057; */
     outline:2px solid #84a98c;
     border-radius: 15px;
+    transition: transform 0.3s ease; /* smooth animation */
     /* margin:5% 5% 0% 5%; */
     /* font-size:24px;
     font-family:'Cairo', sans-serif; */
@@ -138,6 +139,7 @@ body {
     border-radius: 15px;
     transition: transform 0.3s ease; /* smooth animation */
     margin:5% 5% 5% 0%;
+    /* outline:whitesmoke; */
     
     /* margin: 5%; */
     /* border:3px solid #f6ede0; */
@@ -148,9 +150,17 @@ body {
     /* margin:0% 8% 8% 5%; */
 }
 
-.about-me img:hover{
-    transform: scale(1.1); /* zoom in */
+.about-me:hover{
+    transform: scale(1.1); 
 }
+.about-me img:hover{
+    /* transform: scale(1.1); zoom in */
+}
+
+/* .main-body{
+    /* padding-bottom:3%; */
+    /* background-color: beige;
+} */ 
 
 
 .bio{
@@ -183,8 +193,45 @@ body {
     /* color:#adb5bd; */
     color:#cad2c5;
     /* margin:2.5% 0% 0% 5%; */
-    font-size:18px;
+    font-size:20px;
     /* margin-left:5.5%; */
     /* padding-left:1%; */
+}
+
+.buttons{
+    /* background-color: gold; */
+    /* margin-left:10%;  */
+    /* padding:5%; */
+    /* padding-left:20%; */
+    display:flex;
+    /* padding-top:2%; */
+    /* align-items: center; */
+    justify-content: center;
+    padding:0;
+    margin-top:5%;
+    gap:5%;
+}
+
+.about-me-buttons{
+    /* background-color: #52796f; */
+    text-decoration: none;
+    color:#354f52;
+    /* background-color: #354f52; */
+    background-color:#84a98c;
+    /* background-color: whitesmoke; */
+    border-radius:30px;
+    outline:2px solid #354f52;
+    padding: .5em 3em;
+    font-size:18px;
+    /* margin:5%; */
+    font-family:'Cairo', sans-serif; 
+
+}
+
+.about-me-buttons:hover{
+    /* background-color: #354f52; */
+    /* background-color: whitesmoke; */
+    color:whitesmoke;
+    outline:1px solid whitesmoke;
 }
 
