@@ -231,4 +231,32 @@ body {
     transform: scale(1.1); 
 }
 
+.socials {
+    margin-left:15%;
+    margin-bottom:20%;
+}
+
+.socials i{
+    color:whitesmoke;
+    margin-right:4px;
+}
+
+.socials p{
+    display:flex;
+    align-items: center;
+    color:whitesmoke;
+    /* text-align:center; */
+}
+
+.socials img{
+    width:20px;
+    height:auto;
+    margin-right:4px;
+}
+
+.socials a{
+    text-decoration:underline;
+    color:whitesmoke;
+}
+
 
