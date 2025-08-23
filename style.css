@@ -159,13 +159,25 @@ body {
 }
 
 .about-me-body-section h2{
-    font-size:56px; 
+    font-size:52px; 
+    font-style: normal;
     color:whitesmoke;
     margin-bottom: 0;
 }
 
 .about-me-body-section hr{
     color:#52796f;
+}
+
+.about-me-body-section li{
+    /* font-size: 20px; */
+    color:whitesmoke;
+}
+
+.about-me-body-section a{
+    text-decoration: none;
+    font-size: 18px;
+    color:whitesmoke;
 }
 
 .projects{
