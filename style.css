@@ -1,10 +1,5 @@
 body {
-    /* background-color: #354f52; */
-    /* background-color: #212529; */
-    /* background-color: #2b2d42; */
-    /* background-color: #adc178; */
     background-color: #0a0908;
-    /* background-color: #565264; */
     margin-top:0;
 }
 
@@ -17,13 +12,9 @@ body {
 
 
 .navbar{
-/* background-color: #212529; */
     background-color: #0a0908;
-    /* background-color: #354f52; */
     display: flex;
     justify-content: center;
-    /* justify-content: space-between; Push left and right to edges */
-    /* outline:2px solid #84a98c; */
     outline:1px solid whitesmoke;
 }
 
@@ -49,7 +40,9 @@ body {
 
 
 .page_links a:hover{
-    color:#6c757d;
+    /* color:#6c757d; */
+    color:#f15bb5;
+    /* color:#6a994e; */
     /* color:#84a98c; */
 }
 
@@ -70,6 +63,29 @@ body {
 .icons a{
     padding-right:15px;
     display:block;
+}
+
+.name-area{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    /* gap:5px; */
+    height: 100vh; 
+}
+.name-area h1{
+    /* margin-top:20%; */
+    color:whitesmoke;
+    font-family:'Cairo', sans-serif;
+    font-size:130px;
+    text-align:center;
+    margin:0;
+}
+
+.name-area p{
+    margin:0;
+    color:whitesmoke;
+    font-family:'Cairo', sans-serif;
 }
 
 
